@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+body{font-family:Georgia, 'Times New Roman', Times, serif}
+
+.container{
+    margin: 0 auto;
+    height: 100%;
+    width: 960px;
+}
+.infoItem{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+#formCart input, button{
+    display: inline-block;  
+    border: 1px solid beige;
+    padding: 5px;
+   
+}
+#formCart button{
+    cursor: pointer;
+    background-color:rgb(30, 181, 30); ;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: bold;
+}   
+a{
+    text-decoration: none;
+    color: rgb(90, 145, 90);
+    font-weight: bold;
+    
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.title{
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 25px;
+}
+.related-product{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}

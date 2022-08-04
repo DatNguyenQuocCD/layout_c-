@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="./public/css/layout.css">
+    <title>Chaitan</title>
+</head>
+<body id="body">
+    <header id="header">
+        <div class="header-top">
+            <ul class="main_contact">
+                <li>
+                    <a href="#"><i class="fas fa-phone"></i> (+84) 905 101 471</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-location-dot black"></i> 40 Đường Trần Duy Chiến, Mân Thái, Sơn Trà, Đà Nẵng</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-clock black"></i> Th7 - CN 24/7</a>
+                </li>
+            </ul>
+            <ul class="main_icon">
+                <a href="#"><i class="fa-solid fa-cart-shopping black"></i> <span id="cart-number" class="black">0</span></a>
+            </ul>
+        </div>
+        <div class="header-middle">
+            <nav class="sticky">
+                <a href="#"><img class="logo" src="./public/img/Logo1 (1).png" alt="Logo"></a>
+                <div>
+                    <ul class="main_nav">
+                        <li>
+                            <a href="#">Trang Chủ</a>
+                        </li>
+                        <li>
+                            <a href="#">Về Chúng Tôi</a>
+                        </li>
+                        <li>
+                            <a href="#">Sản Phầm</a>
+                        </li>
+                        <li>
+                            <a href="#">Câu Chuyện</a>
+                        </li>
+                        <li>
+                            <a href="#">Hỏi Đáp</a>
+                        </li>
+                        <li>
+                            <a href="#">Liên Hệ</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="slogan">
+                        <h4 class="text-center">
+                            " Nối Tiếp <span>Truyền Thống</span> Giò Chả <span>Việt</span> "
+                        </h4>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="header-bottom">
+            <div class="blog-left">
+                <div class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-google-plus-g"></i>
+                    <hr  width="2%" align="center"/>
+                </div>
+                <div class="follow">
+                    <p>Follow us</p>
+                </div>
+            </div>
+            <div class="blog-center">
+                <h1>Giò Chả Nhà Hiếu Huynh</h1>
+                <br>
+                <h4>Gia Truyền Hơn 30 Năm</h4>
+            </div>
+        </div>
+    </header>
+    <header id="header-mobile">
+        <div class="header-top">
+            <a href="#"><img class="logo" src="./public/img/Logo1 (1).png" alt="Logo"></a>
+            <a onclick="openNav()" href="#" class="text-center"><i class="fas fa-bars"></i></a>
+        </div>
+        <div class="header-middle">
+            <div class="slogan">
+                <h4 class="text-center">
+                    " Nối Tiếp <span>Truyền Thống</span> Giò Chả <span>Việt</span> "
+                </h4>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="blog-center">
+                <h1>Giò Chả Nhà Hiếu Huynh</h1>
+                <br>
+                <h4>Gia Truyền Hơn 30 Năm</h4>
+            </div>
+        </div>
+    </header>
+    <section class="about-us">
+        <div class="container">
+            <div class="core">
+                <div class="services grid">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h6 class="header">Chuẩn Bị Hàng <span> Nhanh </span></h6>
+                </div>
+                <div class="customer-support grid">
+                    <i class="fas fa-cheese"></i>
+                    <h6 class="header">An Toàn <br><span> Thực Phẩm </span></h6>
+                </div>
+                <div class="payments grid">
+                    <i class="fa-solid fa-cash-register"></i>
+                    <h6 class="header">Uy Tín <br><span> Tránh Nhiệm </span></h6>
+                </div>
+            </div>
+        </div>
+        <div class="description text-center">
+            <div class="descriptions text-center">
+                <h1>Lịch Sử Hình Thành</h1>
+                <br>
+            </div>
+            <img id="owner" src="/public/img/BaChuQuan.jpg" alt="Photo">
+            <br>
+            <br>
+            <p id="title-img">Hình Ảnh: Giám Đốc Công Ty</p>
+            <br>
+            <div class="container">
+                <p id="history"><i>Chồng tôi kể rằng: “Bố là dân di cư từ Bắc vào Đà Nẵng vào năm 1954. Lúc còn nhỏ, tôi chỉ biết bám theo ông, ông dậy sớm giã chả, tôi cũng dậy theo... Vào năm 1975, bố mất lúc tôi chỉ mới 7 tuổi. Lớn lên tôi còn nhớ về bố trong những lần vét cối giã chả, gói trong lá chuối rồi đem hấp. Mùi vị chả gói trong lá chuối đến bây giờ vẫn còn đọng mãi trong tôi. Vị ngọt của thịt, vị mặn vừa phải của nước mắm, và mùi thơm đặc trưng của giò Bắc (còn gọi là chả lụa). Sau này được mẹ kể lại cách thức làm chả của bố, tôi đã mơ ước được khôi phục lại nghề làm chả của bố. Đến năm 1989, tôi lập gia đình, rồi năm 1992 tôi mài mò, tìm kiếm con đường để phát triển nghề chả. Ban đầu, tôi tìm đến người bạn cùng làm nghề với bố trước đây. Thời đó tôi phải đem đầu máy chiếu video sang đổi để xin cối xay chả cũ về. Cối xay mỗi lần chỉ được một ký, cối ruột gà, chạy bằng máy phát điện cũ (năm đó hệ thống điện chưa có về xã, phường). Cối chạy được 5 tháng thì mòn và hư. Tôi phải nhờ đến một thợ đúc cối khác bằng gan ở đường Tăng Bạt Hổ. Lúc đó làm chả khổ lắm, dùng máy phát điện kết dây cu roa với cối ruột gà đùn sơ qua và bỏ vào cối đá, giã lại bằng tay. Làm mỗi ngày từ 5 đến 10 ký chả là hết công suất. Chúng tôi cố gắng làm để tích luỹ vốn đầu tư máy móc, bán hàng qua các cửa hàng bánh cuốn nổi tiếng trong thành phố.</i></p>
+            </div>
+        </div>
+            <div class="container">
+                <button class="read-more" type="button"><h3>Tìm Hiểu Thêm ></h3></button>
+            </div>
+        </div>
+    </section>
+    <section class="our-products">
+        <div class="descriptions text-center">
+            <h6></h6>
+            <h1>Các Loại Sản Phẩm Chính</h1>
+            <br>
+        </div>
+        <div class="container">
+            <div class="row lazy">
+                <div class="product">
+                    <img src="./public/img/tra1.jpg" alt="tea">
+                    <div class="container">
+                        <div class="name text-center">
+                            <h1>Black Tea</h1>
+                            <p>Nullam dictum molestie quam, non feugiat dui eleifend eget. Nullam dictum molestie quam, non feugiat dui eleifend eget.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./public/img/tra2.jpg" alt="tea">
+                    <div class="container">
+                        <div class="name text-center">
+                            <h1>Organic Tea</h1>
+                            <p>Nullam dictum molestie quam, non feugiat dui eleifend eget.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./public/img/tra3.jpg" alt="tea">
+                    <div class="container">
+                        <div class="name text-center">
+                            <h1>Spiced Tea</h1>
+                            <p>Nullam dictum molestie quam, non feugiat dui eleifend eget.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./public/img/tra4.jpg" alt="tea">
+                    <div class="container">
+                        <div class="name text-center">
+                            <h1>White Tea</h1>
+                            <p>Nullam dictum molestie quam, non feugiat dui eleifend eget.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./public/img/tra5.jpg" alt="tea">
+                    <div class="container">
+                        <div class="name text-center">
+                            <h1>Fruit Tea</h1>
+                            <p>Nullam dictum molestie quam, non feugiat dui eleifend eget.</p>
+                        </div>
+                    </div>
+                </div><div class="product">
+                    <img src="./public/img/tra6.jpg" alt="tea">
+                    <div class="container">
+                        <div class="name text-center">
+                            <h1>Pu’er Tea</h1>
+                            <p>Nullam dictum molestie quam, non feugiat dui eleifend eget.</p>
+                        </div>
+                    </div>
+                </div><div class="product">
+                    <img src="./public/img/tra7.jpg" alt="tea">
+                    <div class="container">
+                        <div class="name text-center">
+                            <h1>Green Tea</h1>
+                            <p>Nullam dictum molestie quam, non feugiat dui eleifend eget.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="store">
+        <div class="descriptions text-center">
+            <h6></h6>
+            <h1 style="color: white;">Câu Chuyện Mỗi Ngày</h1>
+            <br><br><br><br>
+        </div>
+        <div class="container">
+            <div class="stories">
+                <div>
+                    <img class="stories-img" src="/public/img/Untitled.jpg" alt="Photo">
+                    <br><br><br>
+                    <h3 class="text-center">Câu chuyện đạt chứng nhận OCOP</h3>
+                    <p class="title-stories" >Chiều 26-10, Hội đồng đánh giá, phân hạng sản phẩm OCOP thành phố tiến hành đánh giá, phân hạng 8 sản phẩm đặc trưng của các địa phương thuộc chương trình “Mỗi xã một sản phẩm” (OCOP) trên địa bàn thành phố. Theo đó, hội đồng đánh giá và đề xuất UBND thành phố công nhận 4 sản phẩm đạt 4 sao gồm: chả mực và cá đét khô tẩm gia vị của Công ty TNHH Bắc Đẩu (số 11 Vân Đồn, phường Thọ Quang, quận Sơn Trà); </p>
+                </div>
+                <div>
+                    <img class="stories-img" src="/public/img/unnamed.jpg" alt="Photo">
+                    <br><br><br>
+                    <h3 class="text-center">Câu chuyện về Chả Phụng</h3>
+                    <p class="title-stories" >Chiều 26-10, Hội đồng đánh giá, phân hạng sản phẩm OCOP thành phố tiến hành đánh giá, phân hạng 8 sản phẩm đặc trưng của các địa phương thuộc chương trình “Mỗi xã một sản phẩm” (OCOP) trên địa bàn thành phố. Theo đó, hội đồng đánh giá và đề xuất UBND thành phố công nhận 4 sản phẩm đạt 4 sao gồm: chả mực và cá đét khô tẩm gia vị của Công ty TNHH Bắc Đẩu (số 11 Vân Đồn, phường Thọ Quang, quận Sơn Trà); </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <button class="see-more" type="button"><h3>Tìm Hiểu Thêm ></h3></button>
+        </div>
+    </section>
+    <section class="online-store">
+        <div class="descriptions text-center">
+            <h6></h6>
+            <br>
+            <h1>Sản Phẩm Bán Chạy</h1>
+            <br>
+        </div>
+        <div class="container">
+            <div class="products text-center">
+                <div class="item">
+                    <img src="./public/img/product-tea-1.jpg" alt="product">
+                    <h1>An Xi Mao Xie</h1>
+                    <br>
+                    <p>Duis et aliquam orci. Vivamus augue quam, sollicitudin quis bibendum quis, ...Duis et aliquam orci. Vivamus augue quam, sollicitudin quis bibendum quis, ...</p>
+                    <br>
+                    <p class="money">$3.00</p>
+                    <div class="button">
+                        <div>
+                             <button class="more-info" type="button"><h3>Xem Thêm ></h3></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./public/img/product-tea-2.jpg" alt="product">
+                    <h1>Phoenix Dan Cong</h1>
+                    <br>
+                    <p>Duis et aliquam orci. Vivamus augue quam, sollicitudin quis bibendum quis, ...</p>
+                    <br>
+                    <p class="money">$1.99 - $3.99</p>
+                    <div class="button">
+                        <div>
+                             <button class="more-info" type="button"><h3>Xem Thêm ></h3></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./public/img/product-tea-3.jpg" alt="product">
+                    <h1>Dong Ding</h1>
+                    <br>
+                    <p>Duis et aliquam orci. Vivamus augue quam, sollicitudin quis bibendum quis, ...</p>
+                    <br>
+                    <p class="money">$1.99</p>
+                    <div class="button">
+                        <div>
+                             <button class="more-info" type="button"><h3>Xem Thêm ></h3></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <button class="read-more" id="show-more" type="button"><h3>Xem Thêm ></h3></button>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <section class="tutorial">
+        <div class="how-to text-center">
+            <h1>Công Đoạn Sản Xuất <span style="color:#88b44e;">Chả Giò</span></h1>
+            <br>
+            <div class="container">
+                <p><i>Video Quy Trình Sản Xuất:</i></p>
+            </div>
+        </div>
+        <div class="container">
+            <img class="video" src="http://chaitan.like-themes.com/wp-content/uploads/2018/06/video.jpg" class="image" alt="">
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/vdWILSqrlCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        </div>
+        <div class="container">
+            <i id="play" class="fa-solid fa-circle-play" onclick="play_video()"></i>
+        </div>
+        <div class="container">
+            <div id="modal-video">
+                <i class="fa-solid fa-xmark" onclick="close_video()"></i>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/vdWILSqrlCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="contact online-store">
+        <div class="descriptions text-center">
+            <h6></h6>
+            <br>
+            <h1>Liên Hệ</h1>
+            <br><br><br>
+        </div>
+        <div class="container">
+            <div class="col-2">
+                <div class="N-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.573867606748!2d108.2414556153612!3d16.08758804321766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314217f3807e8a07%3A0x9631e77f9843d8d2!2zNDAgxJAuIFRy4bqnbiBEdXkgQ2hp4bq_biwgTcOibiBUaMOhaSwgU8ahbiBUcsOgLCDEkMOgIE7hurVuZywgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1648747127271!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="modal-left">
+                    <form class="form-contact" action="" method="post">
+                        <div class="input-block">
+                            <label for="email" class="input-label">Họ Và Tên<span style="color: red;">*</span></label>
+                            <input type="text" name="name" required oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Vui lòng nhập tên của bạn')">
+                        </div>
+                        <div class="input-block">
+                            <label for="password" class="input-label">Địa Chỉ<span style="color: red;">*</span></label>
+                            <input type="text" name="address" required oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Vui lòng nhập email của bạn')">
+                        </div>
+                        <div class="input-block">
+                            <label for="password" class="input-label">Điện Thoại<span style="color: red;">*</span></label>
+                            <input type="text" name="phone-number" required oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Vui lòng nhập số điện thoại của bạn')">
+                        </div>
+                        <div class="input-block">
+                            <label for="password" class="input-label">Lời Nhắn<span style="color: red;">*</span></label>
+                            <textarea id="message" type="text" name="note" required oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Vui lòng nhập lời nhắn đến shop')"></textarea>
+                        </div>
+                        <div style="margin: 1rem 0; color: red; text-align: center">
+                            <?= empty($data["message"]) ? "" : $data["message"] ?>
+                        </div>
+                        <div class="modal-buttons container">
+                            <button class="input-button" type="submit" name="submit">Gửi</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-top">
+            <h1 class="text-center">Giò Chả Nhà Hiếu Huynh</h1>
+        </div>
+        <div class="footer-middle">
+            <div class="container">
+                <div class="grid-2">
+                    <div class="container">
+                        <img class="logo1" src="./public/img/Logo1 (1).png" alt="Logo">
+                    </div>
+                    <div class="slogan padding">
+                        <h4 class="text-center">
+                            " Nối Tiếp <span>Truyền Thống</span> Giò Chả <span>Việt</span> "
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <hr color= "#4b4c4d"/>
+            <div class="container">
+                <div class="col-3">
+                    <div class="order">
+                        <h2>Đặt Hàng</h2>
+                        <br>
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fas fa-map-marker-alt"></i> 40 Đường Trần Duy Chiến, Mân Thái, Sơn Trà, Đà Nẵng</a>
+                            </li>
+                            <br>
+                            <li>
+                                <a href="#"><i class="fas fa-phone"></i> (+84) 905 101 471</a>
+                            </li>
+                            <br>
+                            <li>
+                                <a href="#"><i class="fas fa-envelope"></i> giochahieuhuynh@gamil.com</a>
+                            </li>
+                        </ul>
+                        <br>
+                        <br><br>
+                        <h2>Theo Dõi chúng Tôi:</h2>
+                        <br>
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+                            </li>
+                            <br>
+                            <li>
+                                <a href="#"><svg class="footer-top__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.1 436.6">
+                            <path
+                                d="M82.6 380.9c-1.8-.8-3.1-1.7-1-3.5 1.3-1 2.7-1.9 4.1-2.8 13.1-8.5 25.4-17.8 33.5-31.5 6.8-11.4 5.7-18.1-2.8-26.5C69 269.2 48.2 212.5 58.6 145.5 64.5 107.7 81.8 75 107 46.6c15.2-17.2 33.3-31.1 53.1-42.7 1.2-.7 2.9-.9 3.1-2.7-.4-1-1.1-.7-1.7-.7-33.7 0-67.4-.7-101 .2C28.3 1.7.5 26.6.6 62.3c.2 104.3 0 208.6 0 313 0 32.4 24.7 59.5 57 60.7 27.3 1.1 54.6.2 82 .1 2 .1 4 .2 6 .2H290c36 0 72 .2 108 0 33.4 0 60.5-27 60.5-60.3v-.6-58.5c0-1.4.5-2.9-.4-4.4-1.8.1-2.5 1.6-3.5 2.6-19.4 19.5-42.3 35.2-67.4 46.3-61.5 27.1-124.1 29-187.6 7.2-5.5-2-11.5-2.2-17.2-.8-8.4 2.1-16.7 4.6-25 7.1-24.4 7.6-49.3 11-74.8 6zm72.5-168.5c1.7-2.2 2.6-3.5 3.6-4.8 13.1-16.6 26.2-33.2 39.3-49.9 3.8-4.8 7.6-9.7 10-15.5 2.8-6.6-.2-12.8-7-15.2-3-.9-6.2-1.3-9.4-1.1-17.8-.1-35.7-.1-53.5 0-2.5 0-5 .3-7.4.9-5.6 1.4-9 7.1-7.6 12.8 1 3.8 4 6.8 7.8 7.7 2.4.6 4.9.9 7.4.8 10.8.1 21.7 0 32.5.1 1.2 0 2.7-.8 3.6 1-.9 1.2-1.8 2.4-2.7 3.5-15.5 19.6-30.9 39.3-46.4 58.9-3.8 4.9-5.8 10.3-3 16.3s8.5 7.1 14.3 7.5c4.6.3 9.3.1 14 .1 16.2 0 32.3.1 48.5-.1 8.6-.1 13.2-5.3 12.3-13.3-.7-6.3-5-9.6-13-9.7-14.1-.1-28.2 0-43.3 0zm116-52.6c-12.5-10.9-26.3-11.6-39.8-3.6-16.4 9.6-22.4 25.3-20.4 43.5 1.9 17 9.3 30.9 27.1 36.6 11.1 3.6 21.4 2.3 30.5-5.1 2.4-1.9 3.1-1.5 4.8.6 3.3 4.2 9 5.8 14 3.9 5-1.5 8.3-6.1 8.3-11.3.1-20 .2-40 0-60-.1-8-7.6-13.1-15.4-11.5-4.3.9-6.7 3.8-9.1 6.9zm69.3 37.1c-.4 25 20.3 43.9 46.3 41.3 23.9-2.4 39.4-20.3 38.6-45.6-.8-25-19.4-42.1-44.9-41.3-23.9.7-40.8 19.9-40 45.6zm-8.8-19.9c0-15.7.1-31.3 0-47 0-8-5.1-13-12.7-12.9-7.4.1-12.3 5.1-12.4 12.8-.1 4.7 0 9.3 0 14v79.5c0 6.2 3.8 11.6 8.8 12.9 6.9 1.9 14-2.2 15.8-9.1.3-1.2.5-2.4.4-3.7.2-15.5.1-31 .1-46.5z">
+                            </path>
+                        </svg> Zalo</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="order discover" id="discover">
+                        <h2>Khám pháp</h2>
+                        <br>
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fas fa-angle-right"></i> Trang Chủ</a>
+                            </li>
+                            <br>
+                            <li>
+                                <a href="#"><i class="fas fa-angle-right"></i> Về Chúng Tôi</a>
+                            </li>
+                            <br>
+                            <li>
+                                <a href="#"><i class="fas fa-angle-right"></i> Sản Phẩm</a>
+                            </li>
+                            <br>
+                            <li>
+                                <a href="#"><i class="fas fa-angle-right"></i> Câu Chuyện</a>
+                            </li>
+                            <br>
+                            <li>
+                                <a href="#"><i class="fas fa-angle-right"></i> Hỏi Đáp</a>
+                            </li>
+                            <br>
+                            <li>
+                                <a href="#"><i class="fas fa-angle-right"></i> Liên Hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="order">
+                        <h2>VITRADE</h2>
+                        <br>
+                        <img src="./public/img/vitrade.jpg" alt="VITRADE">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <h3 class="text-center">© 2022 by Passerelles numériques Vietnam students</h3>
+        </div>
+    </footer>
+    <!-- -----------------------------------offcan menu------------------------------ -->
+    <div id="mySidenav" class="sidenav">
+        <div class="sidenav-Top">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <h1 class="menu text-center">Menu</h1>
+        </div>
+        <div class="clearfix"></div>
+        <ul class="link text-center">
+            <li class="menu-item"><a href="#">TRANG CHỦ</a></li>
+            <li class="menu-item"><a href="#">VỀ CHÚNG TÔI</a></li>
+            <li class="menu-item"><a href="#">SẢN PHẨM</a></li>
+            <li class="menu-item"><a href="#">CÂU CHUYỆN</a></li>
+            <li class="menu-item"><a href="#">ĐÁNH GIÁ</a></li>
+            <li class="menu-item"><a href="#">HỎI ĐÁP</a></li>
+            <li class="menu-item"><a href="#">LIÊN HỆ</a></li>
+        </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./public/js/chaitan.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        $('.lazy').slick({
+        lazyLoad: 'ondemand',
+        slidesToShow: 3,
+        slidesToScroll: 1
+        });
+        var player = new YT.Player("video", () => {
+            events:{ 
+                onPaused: ()=> {
+
+                }
+            }
+        })
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+            document.getElementById("main").style.marginLeft = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+</body>
+</html>
